@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		499C92042A651E520026C0B2 /* NAV_MRTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C92032A651E520026C0B2 /* NAV_MRTApp.swift */; };
-		499C92062A651E520026C0B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C92052A651E520026C0B2 /* ContentView.swift */; };
-		499C92082A651E540026C0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C92072A651E540026C0B2 /* Assets.xcassets */; };
-		499C920B2A651E540026C0B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C920A2A651E540026C0B2 /* Preview Assets.xcassets */; };
+		494739AD2A66506000CE59AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494739AC2A66506000CE59AB /* AppDelegate.swift */; };
+		494739AF2A66506000CE59AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494739AE2A66506000CE59AB /* ContentView.swift */; };
+		494739B12A66506200CE59AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494739B02A66506200CE59AB /* Assets.xcassets */; };
+		494739B42A66506200CE59AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494739B32A66506200CE59AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		499C92002A651E520026C0B2 /* NAV_MRT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAV_MRT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		499C92032A651E520026C0B2 /* NAV_MRTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAV_MRTApp.swift; sourceTree = "<group>"; };
-		499C92052A651E520026C0B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		499C92072A651E540026C0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		499C920A2A651E540026C0B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		494739A92A66506000CE59AB /* NAV_MRT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAV_MRT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494739AC2A66506000CE59AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		494739AE2A66506000CE59AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		494739B02A66506200CE59AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494739B32A66506200CE59AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		499C91FD2A651E520026C0B2 /* Frameworks */ = {
+		494739A62A66506000CE59AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		499C91F72A651E520026C0B2 = {
+		494739A02A66506000CE59AB = {
 			isa = PBXGroup;
 			children = (
-				499C92022A651E520026C0B2 /* NAV_MRT */,
-				499C92012A651E520026C0B2 /* Products */,
+				494739AB2A66506000CE59AB /* NAV_MRT */,
+				494739AA2A66506000CE59AB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		499C92012A651E520026C0B2 /* Products */ = {
+		494739AA2A66506000CE59AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				499C92002A651E520026C0B2 /* NAV_MRT.app */,
+				494739A92A66506000CE59AB /* NAV_MRT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		499C92022A651E520026C0B2 /* NAV_MRT */ = {
+		494739AB2A66506000CE59AB /* NAV_MRT */ = {
 			isa = PBXGroup;
 			children = (
-				499C92032A651E520026C0B2 /* NAV_MRTApp.swift */,
-				499C92052A651E520026C0B2 /* ContentView.swift */,
-				499C92072A651E540026C0B2 /* Assets.xcassets */,
-				499C92092A651E540026C0B2 /* Preview Content */,
+				494739AC2A66506000CE59AB /* AppDelegate.swift */,
+				494739AE2A66506000CE59AB /* ContentView.swift */,
+				494739B02A66506200CE59AB /* Assets.xcassets */,
+				494739B22A66506200CE59AB /* Preview Content */,
 			);
 			path = NAV_MRT;
 			sourceTree = "<group>";
 		};
-		499C92092A651E540026C0B2 /* Preview Content */ = {
+		494739B22A66506200CE59AB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				499C920A2A651E540026C0B2 /* Preview Assets.xcassets */,
+				494739B32A66506200CE59AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		499C91FF2A651E520026C0B2 /* NAV_MRT */ = {
+		494739A82A66506000CE59AB /* NAV_MRT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 499C920E2A651E540026C0B2 /* Build configuration list for PBXNativeTarget "NAV_MRT" */;
+			buildConfigurationList = 494739B72A66506200CE59AB /* Build configuration list for PBXNativeTarget "NAV_MRT" */;
 			buildPhases = (
-				499C91FC2A651E520026C0B2 /* Sources */,
-				499C91FD2A651E520026C0B2 /* Frameworks */,
-				499C91FE2A651E520026C0B2 /* Resources */,
+				494739A52A66506000CE59AB /* Sources */,
+				494739A62A66506000CE59AB /* Frameworks */,
+				494739A72A66506000CE59AB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = NAV_MRT;
 			productName = NAV_MRT;
-			productReference = 499C92002A651E520026C0B2 /* NAV_MRT.app */;
+			productReference = 494739A92A66506000CE59AB /* NAV_MRT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		499C91F82A651E520026C0B2 /* Project object */ = {
+		494739A12A66506000CE59AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					499C91FF2A651E520026C0B2 = {
+					494739A82A66506000CE59AB = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 499C91FB2A651E520026C0B2 /* Build configuration list for PBXProject "NAV_MRT" */;
+			buildConfigurationList = 494739A42A66506000CE59AB /* Build configuration list for PBXProject "NAV_MRT" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 499C91F72A651E520026C0B2;
-			productRefGroup = 499C92012A651E520026C0B2 /* Products */;
+			mainGroup = 494739A02A66506000CE59AB;
+			productRefGroup = 494739AA2A66506000CE59AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				499C91FF2A651E520026C0B2 /* NAV_MRT */,
+				494739A82A66506000CE59AB /* NAV_MRT */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		499C91FE2A651E520026C0B2 /* Resources */ = {
+		494739A72A66506000CE59AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499C920B2A651E540026C0B2 /* Preview Assets.xcassets in Resources */,
-				499C92082A651E540026C0B2 /* Assets.xcassets in Resources */,
+				494739B42A66506200CE59AB /* Preview Assets.xcassets in Resources */,
+				494739B12A66506200CE59AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		499C91FC2A651E520026C0B2 /* Sources */ = {
+		494739A52A66506000CE59AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499C92062A651E520026C0B2 /* ContentView.swift in Sources */,
-				499C92042A651E520026C0B2 /* NAV_MRTApp.swift in Sources */,
+				494739AF2A66506000CE59AB /* ContentView.swift in Sources */,
+				494739AD2A66506000CE59AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		499C920C2A651E540026C0B2 /* Debug */ = {
+		494739B52A66506200CE59AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		499C920D2A651E540026C0B2 /* Release */ = {
+		494739B62A66506200CE59AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +264,7 @@
 			};
 			name = Release;
 		};
-		499C920F2A651E540026C0B2 /* Debug */ = {
+		494739B82A66506200CE59AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -275,9 +275,11 @@
 				DEVELOPMENT_TEAM = C5V5PAM88P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		499C92102A651E540026C0B2 /* Release */ = {
+		494739B92A66506200CE59AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,9 +306,11 @@
 				DEVELOPMENT_TEAM = C5V5PAM88P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		499C91FB2A651E520026C0B2 /* Build configuration list for PBXProject "NAV_MRT" */ = {
+		494739A42A66506000CE59AB /* Build configuration list for PBXProject "NAV_MRT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499C920C2A651E540026C0B2 /* Debug */,
-				499C920D2A651E540026C0B2 /* Release */,
+				494739B52A66506200CE59AB /* Debug */,
+				494739B62A66506200CE59AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		499C920E2A651E540026C0B2 /* Build configuration list for PBXNativeTarget "NAV_MRT" */ = {
+		494739B72A66506200CE59AB /* Build configuration list for PBXNativeTarget "NAV_MRT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499C920F2A651E540026C0B2 /* Debug */,
-				499C92102A651E540026C0B2 /* Release */,
+				494739B82A66506200CE59AB /* Debug */,
+				494739B92A66506200CE59AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 499C91F82A651E520026C0B2 /* Project object */;
+	rootObject = 494739A12A66506000CE59AB /* Project object */;
 }
