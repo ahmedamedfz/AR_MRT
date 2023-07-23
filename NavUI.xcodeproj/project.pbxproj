@@ -21,6 +21,8 @@
 		269EF6952A6C5C4600F93969 /* DestinationRepositorySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EF6942A6C5C4600F93969 /* DestinationRepositorySample.swift */; };
 		269EF6992A6C5F9A00F93969 /* ExitGateRepositorySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EF6982A6C5F9A00F93969 /* ExitGateRepositorySample.swift */; };
 		269EF69B2A6C621200F93969 /* DestinationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EF69A2A6C621200F93969 /* DestinationViewModel.swift */; };
+		26AFBE702A6D861E00705B31 /* DestinationOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFBE6F2A6D861E00705B31 /* DestinationOnly.swift */; };
+		26AFBE722A6D862F00705B31 /* ExitOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFBE712A6D862F00705B31 /* ExitOnly.swift */; };
 		8B7B97E22A6CF72000B4F2D3 /* ChooseExitOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B97E12A6CF72000B4F2D3 /* ChooseExitOptionView.swift */; };
 		8B7B97E62A6CFA7B00B4F2D3 /* DestinationToExitOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B97E52A6CFA7B00B4F2D3 /* DestinationToExitOption.swift */; };
 		8B7B97E82A6CFB1F00B4F2D3 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B97E72A6CFB1F00B4F2D3 /* Badge.swift */; };
@@ -44,6 +46,8 @@
 		269EF6942A6C5C4600F93969 /* DestinationRepositorySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationRepositorySample.swift; sourceTree = "<group>"; };
 		269EF6982A6C5F9A00F93969 /* ExitGateRepositorySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitGateRepositorySample.swift; sourceTree = "<group>"; };
 		269EF69A2A6C621200F93969 /* DestinationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewModel.swift; sourceTree = "<group>"; };
+		26AFBE6F2A6D861E00705B31 /* DestinationOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationOnly.swift; sourceTree = "<group>"; };
+		26AFBE712A6D862F00705B31 /* ExitOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitOnly.swift; sourceTree = "<group>"; };
 		8B7B97E12A6CF72000B4F2D3 /* ChooseExitOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseExitOptionView.swift; sourceTree = "<group>"; };
 		8B7B97E52A6CFA7B00B4F2D3 /* DestinationToExitOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationToExitOption.swift; sourceTree = "<group>"; };
 		8B7B97E72A6CFB1F00B4F2D3 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				8B7B97E12A6CF72000B4F2D3 /* ChooseExitOptionView.swift */,
 				8B7B97E72A6CFB1F00B4F2D3 /* Badge.swift */,
 				8BD9CADD2A6D3481005BA13A /* ClippedImage.swift */,
+				26AFBE6F2A6D861E00705B31 /* DestinationOnly.swift */,
+				26AFBE712A6D862F00705B31 /* ExitOnly.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 				269EF66B2A6B830600F93969 /* NavUIApp.swift in Sources */,
 				269EF67D2A6B956300F93969 /* Color.swift in Sources */,
 				269EF6822A6C3A9600F93969 /* ChooseStationView.swift in Sources */,
+				26AFBE722A6D862F00705B31 /* ExitOnly.swift in Sources */,
+				26AFBE702A6D861E00705B31 /* DestinationOnly.swift in Sources */,
 				269EF68B2A6C58A100F93969 /* DestinationModel.swift in Sources */,
 				8B7B97E22A6CF72000B4F2D3 /* ChooseExitOptionView.swift in Sources */,
 				269EF68D2A6C591400F93969 /* ExitModel.swift in Sources */,

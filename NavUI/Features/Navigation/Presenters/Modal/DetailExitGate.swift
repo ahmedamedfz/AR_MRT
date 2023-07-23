@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct DetailExitGate: View {
-    @Binding var destination: String
-    @Binding var badgeType: String
+    var destination: String
+    var badgeType: String
     @Binding var showModal: Bool
     
     let imageView = [
@@ -71,6 +71,6 @@ struct DetailExitGate: View {
 
 struct DetailExitGate_Previews: PreviewProvider {
     static var previews: some View {
-        DetailExitGate(destination: .constant("FX Sudirman"), badgeType: .constant("Exit Gate"), showModal: .constant(true))
+        DetailExitGate(destination: ("FX Sudirman"), badgeType: ("Exit Gate"), showModal: .constant(true))
     }
 }

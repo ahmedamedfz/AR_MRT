@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ChooseDestinationView: View {
     @ObservedObject var destinationViewModel: DestinationViewModel
+    @State private var isShowExit = false
+
     
     var body: some View {
         NavigationView{
@@ -17,22 +19,19 @@ struct ChooseDestinationView: View {
                     .font(.headline)
                 VStack(alignment: .leading){
                     ForEach(destinationViewModel.destinations, id: \.id) {dest in
-                        HStack{
-                            Image(dest.photoPath)
-                                .resizable()
-                                .frame(width: 48, height: 48)
-                                .cornerRadius(10)
-                            VStack (alignment: .leading){
-                                Text(dest.destinationName)
-                                    .font(.subheadline)
-                                    .padding(.bottom, 0.1)
-
-                                Text("Nearest Exit: **\(dest.destinationExit)**")
-                                    .font(.caption)
-                            }
+                        Button {
+                            isShowExit.toggle()
+                        } label: {
+                            DestinationOnly(photoPath: dest.photoPath, destinationName: dest.destinationName, destinationExit: dest.destinationExit)
+                                .foregroundColor(.black)
                         }
+//                        .sheet(isPresented: $isShowExit, content: {
+//                            DestinationToExitOption(destination: dest, badgeType: <#T##Binding<String>#>, showModal: $isShowExit)
+//                        })
                     }
                 }
+            
+                
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 10)
                     .fill(Color.Background.surface)
@@ -43,24 +42,7 @@ struct ChooseDestinationView: View {
                     .padding(.top, 20)
                 VStack(alignment: .leading){
                     ForEach(destinationViewModel.exitGates, id: \.id) {exit in
-                        HStack{
-                            Text("\(String(exit.name.last!))")
-                                .font(.title2)
-                                .fontWeight(.bold)
-                                .frame(width: 48, height: 48)
-                                .background(
-                                    RoundedRectangle(cornerRadius: 10)
-                                        .fill(.white)
-                                    
-                                )
-                            VStack (alignment: .leading){
-                                Text(exit.name)
-                                    .font(.subheadline)
-                                    .padding(.bottom, 0.1)
-                                Text("\(exit.destination.joined(separator: ", "))")
-                                    .font(.caption)
-                            }
-                        }
+                        ExitOnly(name: exit.name, destination: exit.destination)
                     }
                 }
 //                .frame(width: .infinity)

@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct DestinationToExitOption: View {
-    @Binding var destination: String
-    @Binding var badgeType: String
+    var destination: String
+    var badgeType: String
     @Binding var showModal: Bool
     @State private var showAlert = false
     
@@ -95,6 +95,6 @@ struct DestinationToExitOption: View {
 
 struct DestinationToExitOption_Previews: PreviewProvider {
     static var previews: some View {
-        DestinationToExitOption(destination: .constant("FX Sudirman"), badgeType: .constant("Landmark"), showModal: .constant(true))
+        DestinationToExitOption(destination: "FX Sudirman", badgeType: "Landmark", showModal: .constant(true))
     }
 }
