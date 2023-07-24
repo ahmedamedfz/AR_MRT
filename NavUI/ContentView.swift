@@ -17,7 +17,7 @@ struct ContentView: View {
                 .bold()
                 Divider()
             ChooseStationView(station: $station)
-            Spacer()
+//            Spacer()
             
             if station == "Pilih Stasiun" {
                 BlankPage()
@@ -25,7 +25,7 @@ struct ContentView: View {
                 ChooseDestinationView(destinationViewModel: DestinationViewModel())
             }
         }
-
+        
     }
 }
 

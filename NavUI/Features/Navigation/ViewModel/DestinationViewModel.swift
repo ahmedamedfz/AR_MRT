@@ -12,6 +12,11 @@ class DestinationViewModel: ObservableObject, Identifiable {
     var exitGateList = ExitGateRepositorySample()
     var streetDestinationList = StreetRepositorySample()
     
+    // Properties to store the filtered destinations
+    @Published var filteredDestinations: [Destination] = []
+    @Published var filteredExitGates: [Exit] = []
+    @Published var filteredStreetDestinations: [Destination] = []
+    
     var destinations: [Destination] {
         var destination = [] as [Destination]
         for dest in destinationList.destinations {
@@ -34,5 +39,19 @@ class DestinationViewModel: ObservableObject, Identifiable {
             exit.append(ex)
         }
         return exit
+    }
+    
+    func updateFilteredDestinations(with searchText: String) {
+        filteredDestinations = destinations.filter { destination in
+            destination.destinationName.localizedCaseInsensitiveContains(searchText)
+        }
+
+        filteredExitGates = exitGates.filter { exit in
+            exit.name.localizedCaseInsensitiveContains(searchText)
+        }
+
+        filteredStreetDestinations = streetDestinations.filter { destination in
+            destination.destinationName.localizedCaseInsensitiveContains(searchText)
+        }
     }
 }

@@ -34,7 +34,7 @@ struct ChooseStationView: View {
                             .stroke(.black, lineWidth: 1)
                     }
                 }
-                .padding([.top, .bottom, .leading, .trailing], 20)
+                .padding([.top, .leading, .trailing], 20)
             }
             .sheet(isPresented: $isShowList) {
                 StationOption(isShowList: $isShowList, station: $station)
