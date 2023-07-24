@@ -10,6 +10,7 @@ import Foundation
 struct Destination: Identifiable {
     var id: UUID
     var destinationName: String
+    var destinationType: String
     var destinationExit: String
     var photoPath: String
 }

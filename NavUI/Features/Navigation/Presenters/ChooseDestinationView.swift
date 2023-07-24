@@ -10,6 +10,7 @@ import SwiftUI
 struct ChooseDestinationView: View {
     @ObservedObject var destinationViewModel: DestinationViewModel
     @State private var isShowExit = false
+    @State private var isShowDetailExit = false
 
     
     var body: some View {
@@ -25,13 +26,11 @@ struct ChooseDestinationView: View {
                             DestinationOnly(photoPath: dest.photoPath, destinationName: dest.destinationName, destinationExit: dest.destinationExit)
                                 .foregroundColor(.black)
                         }
-//                        .sheet(isPresented: $isShowExit, content: {
-//                            DestinationToExitOption(destination: dest, badgeType: <#T##Binding<String>#>, showModal: $isShowExit)
-//                        })
+                        .sheet(isPresented: $isShowExit, content: {
+                            DestinationToExitOption(destination: dest.destinationName, badgeType: dest.destinationType, showModal: $isShowExit)
+                        })
                     }
                 }
-            
-                
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 10)
                     .fill(Color.Background.surface)
@@ -42,24 +41,24 @@ struct ChooseDestinationView: View {
                     .padding(.top, 20)
                 VStack(alignment: .leading){
                     ForEach(destinationViewModel.exitGates, id: \.id) {exit in
-                        ExitOnly(name: exit.name, destination: exit.destination)
+                        Button{
+                            isShowDetailExit.toggle()
+                        } label:{
+                            ExitOnly(name: exit.name, destination: exit.destination)
+                                .foregroundColor(.black)
+                        }
+                        .sheet(isPresented: $isShowDetailExit) {
+                            DetailExitGate(destination: exit.name, badgeType: exit.type, showModal: $isShowDetailExit, destinationViewModel: destinationViewModel)
+                        }
                     }
                 }
-//                .frame(width: .infinity)
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 10)
-                    .fill(Color.Background.surface)
-                    .frame(width: .infinity, height: .infinity))
-
-                
-
-
+                    .fill(Color.Background.surface))
                 Spacer()
             }
             .ignoresSafeArea()
             .frame(width: .infinity)
-
-            
         }
     }
 }

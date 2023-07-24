@@ -10,6 +10,7 @@ import Foundation
 struct Exit: Identifiable {
     var id: UUID
     var name: String
+    var type: String
 //    var destination: [Destination]
     var destination: [String]
 }

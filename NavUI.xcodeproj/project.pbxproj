@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268CF3A22A6E34F3006C7379 /* StreetRepositorySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268CF3A12A6E34F3006C7379 /* StreetRepositorySample.swift */; };
 		269EF66B2A6B830600F93969 /* NavUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EF66A2A6B830600F93969 /* NavUIApp.swift */; };
 		269EF66D2A6B830600F93969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EF66C2A6B830600F93969 /* ContentView.swift */; };
 		269EF66F2A6B830700F93969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269EF66E2A6B830700F93969 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		268CF3A12A6E34F3006C7379 /* StreetRepositorySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetRepositorySample.swift; sourceTree = "<group>"; };
 		269EF6672A6B830600F93969 /* NavUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269EF66A2A6B830600F93969 /* NavUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUIApp.swift; sourceTree = "<group>"; };
 		269EF66C2A6B830600F93969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				269EF6942A6C5C4600F93969 /* DestinationRepositorySample.swift */,
+				268CF3A12A6E34F3006C7379 /* StreetRepositorySample.swift */,
 				269EF6982A6C5F9A00F93969 /* ExitGateRepositorySample.swift */,
 			);
 			name = Sample;
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268CF3A22A6E34F3006C7379 /* StreetRepositorySample.swift in Sources */,
 				269EF68F2A6C5A4300F93969 /* ChooseDestinationView.swift in Sources */,
 				8B7B97E82A6CFB1F00B4F2D3 /* Badge.swift in Sources */,
 				269EF66D2A6B830600F93969 /* ContentView.swift in Sources */,

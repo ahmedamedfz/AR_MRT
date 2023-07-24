@@ -10,6 +10,7 @@ import Foundation
 class DestinationViewModel: ObservableObject, Identifiable {
     var destinationList = DestinationRepositorySample()
     var exitGateList = ExitGateRepositorySample()
+    var streetDestinationList = StreetRepositorySample()
     
     var destinations: [Destination] {
         var destination = [] as [Destination]
@@ -23,6 +24,14 @@ class DestinationViewModel: ObservableObject, Identifiable {
         var exit = [] as [Exit]
         for e in exitGateList.exitGates {
             exit.append(e)
+        }
+        return exit
+    }
+    
+    var streetDestinations: [Destination] {
+        var exit = [] as [Destination]
+        for ex in streetDestinationList.streets {
+            exit.append(ex)
         }
         return exit
     }
