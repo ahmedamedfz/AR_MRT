@@ -1,0 +1,60 @@
+
+{
+    "MAP to Exit A": {
+        "IstoraMandiri-Concourse-To-Platform": "Straight",
+        "IstoraMandiri-Exit-A-Hallway": "Straight",
+        "IstoraMandiri-Exit-A-Stairway": "UpStairs",
+        "IstoraMandiri-Exit-B-Hallway": "Cross",
+        "IstoraMandiri-Exit-B-Stairway": "Cross",
+        "IstoraMandiri-Exit-C-Hallway": "Cross",
+        "IstoraMandiri-Exit-C-Stairway": "Cross",
+        "IstoraMandiri-Exit-D-Hallway": "Cross",
+        "IstoraMandiri-Exit-D-Stairway": "Cross",
+        "IstoraMandiri-Platform-To-Concourse-Reverse": "Left",
+        "IstoraMandiri-Platform-To-Concourses": "Right",
+        "IstoraMandiri-To-Exit-A-C-Hallway": "Straight",
+        "IstoraMandiri-To-Exit-B-D-Hallway": "Cross"
+    }, "MAP to Exit B": {
+        "IstoraMandiri-Concourse-To-Platform": "UpStairs",
+        "IstoraMandiri-Exit-A-Hallway": "Cross",
+        "IstoraMandiri-Exit-A-Stairway": "Cross",
+        "IstoraMandiri-Exit-B-Hallway": "Straight",
+        "IstoraMandiri-Exit-B-Stairway": "Cross",
+        "IstoraMandiri-Exit-C-Hallway": "Cross",
+        "IstoraMandiri-Exit-C-Stairway": "Cross",
+        "IstoraMandiri-Exit-D-Hallway": "Cross",
+        "IstoraMandiri-Exit-D-Stairway": "Cross",
+        "IstoraMandiri-Platform-To-Concourse-Reverse": "Left",
+        "IstoraMandiri-Platform-To-Concourses": "Right",
+        "IstoraMandiri-To-Exit-A-C-Hallway": "Cross",
+        "IstoraMandiri-To-Exit-B-D-Hallway": "Straight"
+    }, "MAP to Exit C": {
+        "IstoraMandiri-Concourse-To-Platform": "UpStairs",
+        "IstoraMandiri-Exit-A-Hallway": "Cross",
+        "IstoraMandiri-Exit-A-Stairway": "Cross",
+        "IstoraMandiri-Exit-B-Hallway": "Cross",
+        "IstoraMandiri-Exit-B-Stairway": "Cross",
+        "IstoraMandiri-Exit-C-Hallway": "Straight",
+        "IstoraMandiri-Exit-C-Stairway": "WalkUpStairs",
+        "IstoraMandiri-Exit-D-Hallway": "Cross",
+        "IstoraMandiri-Exit-D-Stairway": "Cross",
+        "IstoraMandiri-Platform-To-Concourse-Reverse": "Left",
+        "IstoraMandiri-Platform-To-Concourses": "Right",
+        "IstoraMandiri-To-Exit-A-C-Hallway": "Straight",
+        "IstoraMandiri-To-Exit-B-D-Hallway": "Cross"
+    }, "MAP to Exit D": {
+        "IstoraMandiri-Concourse-To-Platform": "UpStairs",
+        "IstoraMandiri-Exit-A-Hallway": "Cross",
+        "IstoraMandiri-Exit-A-Stairway": "Cross",
+        "IstoraMandiri-Exit-B-Hallway": "Cross",
+        "IstoraMandiri-Exit-B-Stairway": "Cross",
+        "IstoraMandiri-Exit-C-Hallway": "Cross",
+        "IstoraMandiri-Exit-C-Stairway": "Cross",
+        "IstoraMandiri-Exit-D-Hallway": "Straight",
+        "IstoraMandiri-Exit-D-Stairway": "UpStairs",
+        "IstoraMandiri-Platform-To-Concourse-Reverse": "Left",
+        "IstoraMandiri-Platform-To-Concourses": "Right",
+        "IstoraMandiri-To-Exit-A-C-Hallway": "Cross",
+        "IstoraMandiri-To-Exit-B-D-Hallway": "Straight"
+    }
+}

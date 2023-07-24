@@ -9,61 +9,49 @@
 /* Begin PBXBuildFile section */
 		49DF13D52A67C1AD00DD325C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF13D42A67C1AD00DD325C /* AppDelegate.swift */; };
 		49DF13D72A67C1AD00DD325C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF13D62A67C1AD00DD325C /* ContentView.swift */; };
-		49DF13D92A67C1AD00DD325C /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 49DF13D82A67C1AD00DD325C /* Experience.rcproject */; };
 		49DF13DB2A67C1AE00DD325C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DF13DA2A67C1AE00DD325C /* Assets.xcassets */; };
 		49DF13DE2A67C1AE00DD325C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DF13DD2A67C1AE00DD325C /* Preview Assets.xcassets */; };
-		49DF13E82A67C1AE00DD325C /* MRT_Augmented_SignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF13E72A67C1AE00DD325C /* MRT_Augmented_SignTests.swift */; };
-		49DF13F22A67C1AE00DD325C /* MRT_Augmented_SignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF13F12A67C1AE00DD325C /* MRT_Augmented_SignUITests.swift */; };
-		49DF13F42A67C1AE00DD325C /* MRT_Augmented_SignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF13F32A67C1AE00DD325C /* MRT_Augmented_SignUITestsLaunchTests.swift */; };
+		49DF14072A6A6F0100DD325C /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF14062A6A6F0100DD325C /* ARViewController.swift */; };
+		49DF14442A6A783200DD325C /* SignageMRTIstora 3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49DF14432A6A783200DD325C /* SignageMRTIstora 3.mlmodel */; };
+		49DF14462A6A815400DD325C /* SceneKitAssetCatalog.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DF14452A6A815400DD325C /* SceneKitAssetCatalog.scnassets */; };
+		49DF14502A6B959400DD325C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF144F2A6B959400DD325C /* Utilities.swift */; };
+		49DF14542A6BA1F900DD325C /* MapPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF14532A6BA1F900DD325C /* MapPointer.swift */; };
+		49DF14562A6BEE8500DD325C /* MapToExit.json in Resources */ = {isa = PBXBuildFile; fileRef = 49DF14552A6BEE8500DD325C /* MapToExit.json */; };
+		49DF14602A6C1B1B00DD325C /* ARViewControllerNest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF145F2A6C1B1B00DD325C /* ARViewControllerNest.swift */; };
+		49DF14622A6C26C800DD325C /* PredictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF14612A6C26C800DD325C /* PredictionViewModel.swift */; };
+		49DF14642A6C334200DD325C /* NestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF14632A6C334200DD325C /* NestView.swift */; };
+		49DF146E2A6D8C0C00DD325C /* Left.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 49DF146B2A6D8C0C00DD325C /* Left.usdz */; };
+		49DF146F2A6D8C0C00DD325C /* Straight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 49DF146C2A6D8C0C00DD325C /* Straight.usdz */; };
+		49DF14702A6D8C0C00DD325C /* Right.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 49DF146D2A6D8C0C00DD325C /* Right.usdz */; };
+		49DF14722A6D926B00DD325C /* UpStairs.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 49DF14712A6D926B00DD325C /* UpStairs.usdz */; };
+		49DF14822A6E3D6200DD325C /* Cross.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 49DF14812A6E3D6200DD325C /* Cross.usdz */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		49DF13E42A67C1AE00DD325C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49DF13C92A67C1AD00DD325C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49DF13D02A67C1AD00DD325C;
-			remoteInfo = "MRT Augmented Sign";
-		};
-		49DF13EE2A67C1AE00DD325C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49DF13C92A67C1AD00DD325C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49DF13D02A67C1AD00DD325C;
-			remoteInfo = "MRT Augmented Sign";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		49DF13D12A67C1AD00DD325C /* MRT Augmented Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRT Augmented Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DF13D42A67C1AD00DD325C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DF13D62A67C1AD00DD325C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		49DF13D82A67C1AD00DD325C /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		49DF13DA2A67C1AE00DD325C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49DF13DD2A67C1AE00DD325C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		49DF13E32A67C1AE00DD325C /* MRT Augmented SignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRT Augmented SignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DF13E72A67C1AE00DD325C /* MRT_Augmented_SignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_Augmented_SignTests.swift; sourceTree = "<group>"; };
-		49DF13ED2A67C1AE00DD325C /* MRT Augmented SignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRT Augmented SignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DF13F12A67C1AE00DD325C /* MRT_Augmented_SignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_Augmented_SignUITests.swift; sourceTree = "<group>"; };
-		49DF13F32A67C1AE00DD325C /* MRT_Augmented_SignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_Augmented_SignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49DF14062A6A6F0100DD325C /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		49DF14432A6A783200DD325C /* SignageMRTIstora 3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SignageMRTIstora 3.mlmodel"; sourceTree = "<group>"; };
+		49DF14452A6A815400DD325C /* SceneKitAssetCatalog.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = SceneKitAssetCatalog.scnassets; sourceTree = "<group>"; };
+		49DF144F2A6B959400DD325C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		49DF14532A6BA1F900DD325C /* MapPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPointer.swift; sourceTree = "<group>"; };
+		49DF14552A6BEE8500DD325C /* MapToExit.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MapToExit.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		49DF14572A6BF1EE00DD325C /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		49DF145F2A6C1B1B00DD325C /* ARViewControllerNest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewControllerNest.swift; sourceTree = "<group>"; };
+		49DF14612A6C26C800DD325C /* PredictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewModel.swift; sourceTree = "<group>"; };
+		49DF14632A6C334200DD325C /* NestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestView.swift; sourceTree = "<group>"; };
+		49DF146B2A6D8C0C00DD325C /* Left.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Left.usdz; sourceTree = "<group>"; };
+		49DF146C2A6D8C0C00DD325C /* Straight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Straight.usdz; sourceTree = "<group>"; };
+		49DF146D2A6D8C0C00DD325C /* Right.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Right.usdz; sourceTree = "<group>"; };
+		49DF14712A6D926B00DD325C /* UpStairs.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = UpStairs.usdz; sourceTree = "<group>"; };
+		49DF14812A6E3D6200DD325C /* Cross.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cross.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49DF13CE2A67C1AD00DD325C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49DF13E02A67C1AE00DD325C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49DF13EA2A67C1AE00DD325C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				49DF13D32A67C1AD00DD325C /* MRT Augmented Sign */,
-				49DF13E62A67C1AE00DD325C /* MRT Augmented SignTests */,
-				49DF13F02A67C1AE00DD325C /* MRT Augmented SignUITests */,
 				49DF13D22A67C1AD00DD325C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				49DF13D12A67C1AD00DD325C /* MRT Augmented Sign.app */,
-				49DF13E32A67C1AE00DD325C /* MRT Augmented SignTests.xctest */,
-				49DF13ED2A67C1AE00DD325C /* MRT Augmented SignUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +80,21 @@
 		49DF13D32A67C1AD00DD325C /* MRT Augmented Sign */ = {
 			isa = PBXGroup;
 			children = (
+				49DF14552A6BEE8500DD325C /* MapToExit.json */,
 				49DF13D42A67C1AD00DD325C /* AppDelegate.swift */,
 				49DF13D62A67C1AD00DD325C /* ContentView.swift */,
-				49DF13D82A67C1AD00DD325C /* Experience.rcproject */,
+				49DF14652A6C70D200DD325C /* View */,
+				49DF14662A6C70E000DD325C /* ViewModel */,
+				49DF14672A6C714A00DD325C /* Model */,
+				49DF14682A6C716A00DD325C /* Helper */,
+				49DF14452A6A815400DD325C /* SceneKitAssetCatalog.scnassets */,
+				49DF14432A6A783200DD325C /* SignageMRTIstora 3.mlmodel */,
+				49DF14572A6BF1EE00DD325C /* Experience.rcproject */,
+				49DF146B2A6D8C0C00DD325C /* Left.usdz */,
+				49DF146D2A6D8C0C00DD325C /* Right.usdz */,
+				49DF14812A6E3D6200DD325C /* Cross.usdz */,
+				49DF146C2A6D8C0C00DD325C /* Straight.usdz */,
+				49DF14712A6D926B00DD325C /* UpStairs.usdz */,
 				49DF13DA2A67C1AE00DD325C /* Assets.xcassets */,
 				49DF13DC2A67C1AE00DD325C /* Preview Content */,
 			);
@@ -113,21 +109,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		49DF13E62A67C1AE00DD325C /* MRT Augmented SignTests */ = {
+		49DF14652A6C70D200DD325C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				49DF13E72A67C1AE00DD325C /* MRT_Augmented_SignTests.swift */,
+				49DF14632A6C334200DD325C /* NestView.swift */,
+				49DF145F2A6C1B1B00DD325C /* ARViewControllerNest.swift */,
+				49DF14062A6A6F0100DD325C /* ARViewController.swift */,
 			);
-			path = "MRT Augmented SignTests";
+			path = View;
 			sourceTree = "<group>";
 		};
-		49DF13F02A67C1AE00DD325C /* MRT Augmented SignUITests */ = {
+		49DF14662A6C70E000DD325C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				49DF13F12A67C1AE00DD325C /* MRT_Augmented_SignUITests.swift */,
-				49DF13F32A67C1AE00DD325C /* MRT_Augmented_SignUITestsLaunchTests.swift */,
+				49DF14612A6C26C800DD325C /* PredictionViewModel.swift */,
 			);
-			path = "MRT Augmented SignUITests";
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		49DF14672A6C714A00DD325C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49DF14532A6BA1F900DD325C /* MapPointer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49DF14682A6C716A00DD325C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				49DF144F2A6B959400DD325C /* Utilities.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,42 +163,6 @@
 			productReference = 49DF13D12A67C1AD00DD325C /* MRT Augmented Sign.app */;
 			productType = "com.apple.product-type.application";
 		};
-		49DF13E22A67C1AE00DD325C /* MRT Augmented SignTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49DF13FA2A67C1AE00DD325C /* Build configuration list for PBXNativeTarget "MRT Augmented SignTests" */;
-			buildPhases = (
-				49DF13DF2A67C1AE00DD325C /* Sources */,
-				49DF13E02A67C1AE00DD325C /* Frameworks */,
-				49DF13E12A67C1AE00DD325C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				49DF13E52A67C1AE00DD325C /* PBXTargetDependency */,
-			);
-			name = "MRT Augmented SignTests";
-			productName = "MRT Augmented SignTests";
-			productReference = 49DF13E32A67C1AE00DD325C /* MRT Augmented SignTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		49DF13EC2A67C1AE00DD325C /* MRT Augmented SignUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49DF13FD2A67C1AE00DD325C /* Build configuration list for PBXNativeTarget "MRT Augmented SignUITests" */;
-			buildPhases = (
-				49DF13E92A67C1AE00DD325C /* Sources */,
-				49DF13EA2A67C1AE00DD325C /* Frameworks */,
-				49DF13EB2A67C1AE00DD325C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				49DF13EF2A67C1AE00DD325C /* PBXTargetDependency */,
-			);
-			name = "MRT Augmented SignUITests";
-			productName = "MRT Augmented SignUITests";
-			productReference = 49DF13ED2A67C1AE00DD325C /* MRT Augmented SignUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +175,6 @@
 				TargetAttributes = {
 					49DF13D02A67C1AD00DD325C = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					49DF13E22A67C1AE00DD325C = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 49DF13D02A67C1AD00DD325C;
-					};
-					49DF13EC2A67C1AE00DD325C = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 49DF13D02A67C1AD00DD325C;
 					};
 				};
 			};
@@ -223,8 +192,6 @@
 			projectRoot = "";
 			targets = (
 				49DF13D02A67C1AD00DD325C /* MRT Augmented Sign */,
-				49DF13E22A67C1AE00DD325C /* MRT Augmented SignTests */,
-				49DF13EC2A67C1AE00DD325C /* MRT Augmented SignUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,22 +201,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DF14562A6BEE8500DD325C /* MapToExit.json in Resources */,
+				49DF14702A6D8C0C00DD325C /* Right.usdz in Resources */,
 				49DF13DE2A67C1AE00DD325C /* Preview Assets.xcassets in Resources */,
+				49DF14462A6A815400DD325C /* SceneKitAssetCatalog.scnassets in Resources */,
+				49DF14722A6D926B00DD325C /* UpStairs.usdz in Resources */,
+				49DF146F2A6D8C0C00DD325C /* Straight.usdz in Resources */,
+				49DF14822A6E3D6200DD325C /* Cross.usdz in Resources */,
+				49DF146E2A6D8C0C00DD325C /* Left.usdz in Resources */,
 				49DF13DB2A67C1AE00DD325C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49DF13E12A67C1AE00DD325C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49DF13EB2A67C1AE00DD325C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,43 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DF14602A6C1B1B00DD325C /* ARViewControllerNest.swift in Sources */,
 				49DF13D72A67C1AD00DD325C /* ContentView.swift in Sources */,
 				49DF13D52A67C1AD00DD325C /* AppDelegate.swift in Sources */,
-				49DF13D92A67C1AD00DD325C /* Experience.rcproject in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49DF13DF2A67C1AE00DD325C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49DF13E82A67C1AE00DD325C /* MRT_Augmented_SignTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49DF13E92A67C1AE00DD325C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49DF13F42A67C1AE00DD325C /* MRT_Augmented_SignUITestsLaunchTests.swift in Sources */,
-				49DF13F22A67C1AE00DD325C /* MRT_Augmented_SignUITests.swift in Sources */,
+				49DF14072A6A6F0100DD325C /* ARViewController.swift in Sources */,
+				49DF14642A6C334200DD325C /* NestView.swift in Sources */,
+				49DF14502A6B959400DD325C /* Utilities.swift in Sources */,
+				49DF14442A6A783200DD325C /* SignageMRTIstora 3.mlmodel in Sources */,
+				49DF14542A6BA1F900DD325C /* MapPointer.swift in Sources */,
+				49DF14622A6C26C800DD325C /* PredictionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		49DF13E52A67C1AE00DD325C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49DF13D02A67C1AD00DD325C /* MRT Augmented Sign */;
-			targetProxy = 49DF13E42A67C1AE00DD325C /* PBXContainerItemProxy */;
-		};
-		49DF13EF2A67C1AE00DD325C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49DF13D02A67C1AD00DD325C /* MRT Augmented Sign */;
-			targetProxy = 49DF13EE2A67C1AE00DD325C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		49DF13F52A67C1AE00DD325C /* Debug */ = {
@@ -431,6 +367,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +399,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,82 +410,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		49DF13FB2A67C1AE00DD325C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C5V5PAM88P;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ada6.MRT-Augmented-SignTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRT Augmented Sign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MRT Augmented Sign";
-			};
-			name = Debug;
-		};
-		49DF13FC2A67C1AE00DD325C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C5V5PAM88P;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ada6.MRT-Augmented-SignTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRT Augmented Sign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MRT Augmented Sign";
-			};
-			name = Release;
-		};
-		49DF13FE2A67C1AE00DD325C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C5V5PAM88P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ada6.MRT-Augmented-SignUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MRT Augmented Sign";
-			};
-			name = Debug;
-		};
-		49DF13FF2A67C1AE00DD325C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C5V5PAM88P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ada6.MRT-Augmented-SignUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MRT Augmented Sign";
 			};
 			name = Release;
 		};
@@ -568,24 +430,6 @@
 			buildConfigurations = (
 				49DF13F82A67C1AE00DD325C /* Debug */,
 				49DF13F92A67C1AE00DD325C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49DF13FA2A67C1AE00DD325C /* Build configuration list for PBXNativeTarget "MRT Augmented SignTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49DF13FB2A67C1AE00DD325C /* Debug */,
-				49DF13FC2A67C1AE00DD325C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49DF13FD2A67C1AE00DD325C /* Build configuration list for PBXNativeTarget "MRT Augmented SignUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49DF13FE2A67C1AE00DD325C /* Debug */,
-				49DF13FF2A67C1AE00DD325C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
